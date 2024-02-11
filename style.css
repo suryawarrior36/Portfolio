@@ -1,0 +1,156 @@
+.top-section {
+    background-image: url('back.jpg'); /* Replace 'your_background_image.jpg' with the path to your image */
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    color: #fff; /* Set text color to white or a suitable contrast */
+    text-align: center; /* Center text within the section */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    max-width: 750px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(248, 248, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+}
+
+.portfolio-image {
+    max-width: 45%; /* Adjust as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.portfolio-text {
+    max-width: 80%; /* Adjust as needed */
+    margin: 10px;
+    text-align: left;
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center items when stacked */
+    }
+
+    .portfolio-image {
+        margin-bottom: 20px; /* Optional: Add some spacing between image and text */
+    }
+}
+.about-container {
+    display: flex;
+    flex-direction: row; /* Default: Image on left, text on right */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; /* Adjust as needed */
+    padding: 20px;
+    background: rgba(248, 248, 255, 0.8);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.about-img {
+    max-width: 40%; /* Adjust as needed */
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .about-container {
+        flex-direction: column; /* Stack elements vertically on small screens */ /* Center text when stacked */
+    }
+
+    .about-img {
+        max-width: 100%; /* Image will take 100% width on small screens */
+        margin-top: 20px; /* Optional: Add some spacing between text and image */
+    }
+}
+
+/* styles.css */
+
+.edu-container {
+    display: flex;
+    flex-direction: row; /* Default: Image on left, text on right */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; /* Adjust as needed */
+    padding: 20px;
+    background: rgba(248, 248, 255, 0.8);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.edu-img {
+    width: 100px; /* Adjust as needed */
+    border-radius: 8px;
+}
+
+.edu-text {
+    margin: 20px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    .edu-container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center items when stacked */
+    }
+
+    .edu-img {
+        margin-top: 20px; /* Optional: Add some spacing between text and image */
+    }
+}
+
+
+.carousel-caption {
+    font-size: 25px;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row; /* Default: Image on left, text on right */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70%; /* Adjust as needed */
+    padding: 20px;
+    background: rgba(248, 248, 255, 0.8);
+    border-radius: 10px;
+    margin: 30px;
+    border: 2px solid black;
+}
+@media (max-width: 600px) {
+    .skill-container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center items when stacked */
+    }
+
+    .skill-image {
+        margin-top: 20px; /* Optional: Add some spacing between list and image */
+    }
+}
+
+.pro-container {
+    display: flex;
+    flex-direction: row; /* Default: Image on left, text on right */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; /* Adjust as needed */
+    padding: 20px;
+    background: rgba(248, 248, 255, 0.8);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+@media (max-width: 600px) {
+    .pro-container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center items when stacked */
+    }
+
+    .card {
+        margin-right: 0; /* Remove right margin on small screens */
+        margin-bottom: 20px; /* Optional: Add some spacing between stacked cards */
+    }
+}
