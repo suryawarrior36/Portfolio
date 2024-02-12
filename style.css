@@ -1,17 +1,16 @@
 .top-section {
-    background-image: url('back.jpg'); /* Replace 'your_background_image.jpg' with the path to your image */
-    background-size: cover; /* Ensure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the background image */
-    color: #fff; /* Set text color to white or a suitable contrast */
-    text-align: center; /* Center text within the section */
-    padding: 50px 0; /* Adjust padding as needed */
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 50px 0;
 }
 .container {
     display: flex;
     align-items: left;
     justify-content: space-between;
-    max-width: 750px; /* Adjust as needed */
+    max-width: 750px;
     margin: 0 auto;
     padding: 20px;
     background: rgba(248, 248, 255);
@@ -21,31 +20,31 @@
 }
 
 .portfolio-image {
-    max-width: 45%; /* Adjust as needed */
-    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    max-width: 45%;
+    border-radius: 8px;
 }
 
 .portfolio-text {
-    max-width: 80%; /* Adjust as needed */
+    max-width: 80%;
     margin: 10px;
     text-align: left;
 }
 @media (max-width: 600px) {
     .container {
-        flex-direction: column; /* Stack elements vertically on small screens */
-        align-items: center; /* Center items when stacked */
+        flex-direction: column;
+        align-items: center;
     }
 
     .portfolio-image {
-        margin-bottom: 20px; /* Optional: Add some spacing between image and text */
+        margin-bottom: 20px;
     }
 }
 .about-container {
     display: flex;
-    flex-direction: row; /* Default: Image on left, text on right */
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%; /* Adjust as needed */
+    max-width: 100%;
     padding: 20px;
     background: rgba(248, 248, 255, 0.8);
     border-radius: 10px;
@@ -53,13 +52,13 @@
 }
 
 .about-img {
-    max-width: 40%; /* Adjust as needed */
+    max-width: 40%;
     border-radius: 8px;
 }
 
 @media (max-width: 600px) {
     .about-container {
-        flex-direction: column; /* Stack elements vertically on small screens */ /* Center text when stacked */
+        flex-direction: column;
     }
 
     .about-img {
@@ -72,7 +71,7 @@
 
 .edu-container {
     display: flex;
-    flex-direction: row; /* Default: Image on left, text on right */
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     max-width: 100%; /* Adjust as needed */
@@ -83,7 +82,7 @@
 }
 
 .edu-img {
-    width: 100px; /* Adjust as needed */
+    width: 100px;
     border-radius: 8px;
 }
 
@@ -110,10 +109,10 @@
 
 .skill-container {
     display: flex;
-    flex-direction: row; /* Default: Image on left, text on right */
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    max-width: 70%; /* Adjust as needed */
+    max-width: 70%;
     padding: 20px;
     background: rgba(248, 248, 255, 0.8);
     border-radius: 10px;
@@ -133,10 +132,10 @@
 
 .pro-container {
     display: flex;
-    flex-direction: row; /* Default: Image on left, text on right */
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%; /* Adjust as needed */
+    max-width: 100%;
     padding: 20px;
     background: rgba(248, 248, 255, 0.8);
     border-radius: 10px;
