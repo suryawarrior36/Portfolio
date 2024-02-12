@@ -22,6 +22,7 @@
 .portfolio-image {
     max-width: 45%;
     border-radius: 8px;
+    border: 2px solid black;
 }
 
 .portfolio-text {
